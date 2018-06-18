@@ -11,6 +11,7 @@ var serial = {};
 
   serial.requestPort = function() {
     const filters = [
+      { 'vendorId': 0x04ca, 'productId': 0x008a },
       { 'vendorId': 0x2341, 'productId': 0x8036 },
       { 'vendorId': 0x2341, 'productId': 0x8037 },
       { 'vendorId': 0x2341, 'productId': 0x804d },
